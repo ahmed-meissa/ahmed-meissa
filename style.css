@@ -1,0 +1,92 @@
+/* colors and fonts */
+body {
+	background: rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	font-family: Helvetica;
+	font-size: 17px;
+
+}
+
+h1 { 
+	font-family: courier;
+	color: red;
+	font-size: 32px;
+ }
+h2, h3, h4 {  
+font-family: courtier;
+color: rgb(100, 100, 100) ;
+font-size: 26px;
+font-weight: bold;
+}
+a {  
+text-decoration: none;
+color: blue;
+
+}
+a:hover {  
+color: red;
+}
+i {  
+text-decoration: none;
+color: blue;
+font-size: 15PX;
+}
+i:hover{  
+color: red;
+}
+
+#logo { /* id="paul.PNG" */;
+width: 100px;
+}
+
+ div {
+ element.style 
+
+ 	background: aliceblue;
+    margin: 40px auto;
+    padding: 40px;
+ } 
+
+
+/* custom disign with class*/
+	.card-white {
+
+background: white;
+  padding: 40px;
+  margin: 40px auto;
+
+}
+
+
+
+
+  img { 
+  width: 100px;  
+   }
+   .img-circle {
+   	border-radius:60px 
+   }
+
+/* custom disign with class*/
+.container {  
+  width:700px;
+margin: 40px auto;
+
+ }
+
+@media (max-width: 760px) { 
+	.container {
+	width: 600px;	
+	}
+
+	 }
+
+
+@media (max-width: 500px) { 
+	.container {
+	width: 400px;	
+	}
+
+	 }
+
+
